@@ -11,11 +11,7 @@ public class Producto {
 
     // Metodo que calcula el precio final de un producto (version basica inicial)
     public double calcularPrecioFinal() {
-<<<<<<< HEAD
-        return this.precioBase * 0.90; // Descuento 10%
-=======
-        return this.precioBase * 1.18;
->>>>>>> origin/feature/impuesto
+      return (this.precioBase * 0.90) * 1.18;
     }
 
     public String getNombre() {
